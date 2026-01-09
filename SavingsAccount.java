@@ -2,8 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package bankingsystem;
-
 public class SavingsAccount extends Account {
 
     private double interestRate;
@@ -12,10 +10,6 @@ public class SavingsAccount extends Account {
     public SavingsAccount(String accountNumber, String holderName, double balance, double interestRate) {
         super(accountNumber, holderName, balance);
         this.interestRate = interestRate;
-    }
-
-    SavingsAccount(String sA001, String ali, int i, double d) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     // Override calculateInterest
